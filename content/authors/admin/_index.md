@@ -13,9 +13,9 @@ education:
 
 email: "andrew.stewart@manchester.ac.uk"
 interests:
-- Psycholinguistics
-- Open Research
+- Open and Reproducible Research
 - Data Science
+- Experimental Psychology
 name: Andrew Stewart
 organizations:
 - name: University of Manchester
