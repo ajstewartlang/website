@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Academic</title>
+    <link>/authors/admin/</link>
+      <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <description>Academic</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Academic</title>
+      <link>/authors/admin/</link>
+    </image>
+    
+    <item>
+      <title>Affective theory of mind inferences contextually influence the recognition of emotional facial expressions.</title>
+      <link>/publication/journal-article/paper1/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/paper1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modality differences in timing and the filled-duration illusion. Testing the pacemaker rate explanation.</title>
+      <link>/publication/journal-article/paper2/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/paper2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An eye-tracking examination of readers&#39; sensitivity to pragmatic scope information during the processing of conditional inducements.</title>
+      <link>/publication/journal-article/paper4/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/paper4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>“It’s hard to write a good article.” The online comprehension of excuses as indirect replies.</title>
+      <link>/publication/journal-article/paper3/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/paper3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;I am an experimental psychologist interested in human language processing with a specific focus on experimental pragmatics. My current research projects include how people understand data visualisations, how readers understand meaning that is implied by a linguistic utterance (rather than that which is conveyed explicitly), the mechanisms by which conditional information is processed and mentally represented, and (more generally) how implied meaning is integrated across sentences. Most of my research involves the use of eye-tracking to examine moment-by-moment processing.&lt;/p&gt;
+
+&lt;p&gt;My research is conducted according to the principles of Open Research with pre-registration of empirical work, open data and code in R. I teach data science and statistical methods to students in Psychology and Biological Sciences with an emphasis on R and reproducibility.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
