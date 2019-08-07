@@ -5,12 +5,47 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 15 May 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 07 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
+    
+    <item>
+      <title>My 2018/19 M.Res. Psychology Stats Course </title>
+      <link>/post/my-2018-19-m-res-psychology-stats-course/</link>
+      <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/post/my-2018-19-m-res-psychology-stats-course/</guid>
+      <description>&lt;p&gt;As my M.Res. Stats course is slowly morphing into a broader course on reproducibilty, data science, and statistics for psychologists, I thought it would be helpful (possibly for my future self) to add a link here to the 2018-2019 iteration of the course.&lt;/p&gt;
+
+&lt;p&gt;All the material can be downloaded from the following repo:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/ajstewartlang/Psychology_MRes_Stats_R_Course&#34; target=&#34;_blank&#34;&gt;https://github.com/ajstewartlang/Psychology_MRes_Stats_R_Course&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In the repo itself, click on the &lt;strong&gt;&amp;lsquo;Clone or download&amp;rsquo;&lt;/strong&gt; button in the top right to download the zipped version of the repository.&lt;/p&gt;
+
+&lt;p&gt;Each folder contains the slides in .pdf form for the first half of each session, the R script that goes with those slides, and the lab worksheet for the second half as an .html file. All data files for the lectures and the lab classes are included.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Semester 1&lt;/strong&gt;&lt;br&gt;
+Lecture 1   Introduction, Open Science, and Power&lt;br&gt;
+Lecture 2   Introduction to R&lt;br&gt;
+Lecture 3   Data Wrangling and Visualisation in the Tidyverse&lt;br&gt;
+Lecture 4   General Linear Model - Regression&lt;br&gt;
+Lecture 5   General Linear Model - Regression&lt;br&gt;
+Lecture 7   General Linear Model - ANOVA&lt;br&gt;
+Lecture 8   General Linear Model - ANOVA&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Semester 2&lt;/strong&gt;&lt;br&gt;
+Workshop - Mixed Models&lt;br&gt;
+Workshop - Advanced R (including data simulation)&lt;br&gt;
+Workshop - Hackathon!&lt;br&gt;
+Workshop - Using Binder for Reproducible Computational Environments&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons Licence&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Meeting with the next generation of psychologists in the North West to talk about reproducibility and open research, May/June 2019</title>
