@@ -18,7 +18,7 @@ links:
 location: University of Chester, Cheshire.
 math: true
 projects:
-publishDate: "2019-09-19T11:30:00Z"
+publishDate: "2019-08-07T11:30:00Z"
 slides: Text mining and Twitter scraping in R
 summary: Text mining and Twitter scraping in R
 tags: []
