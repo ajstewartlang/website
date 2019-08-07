@@ -11,7 +11,7 @@ image:
   caption: 
   focal_point: Right
 links:
-- icon: twitter
+- icon: twitter 
   icon_pack: fab
   name: Follow
   url: https://twitter.com/ajstewart_lang
