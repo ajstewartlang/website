@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: My research interests include open research and reproducibility, data science, experimental psychology, and psycholinguistics. I am a fellow of the Software Sustainability Institute.
+bio: My interests include open research and reproducibility, data science, experimental psychology, and psycholinguistics. I am a fellow of the Software Sustainability Institute.
 education:
   courses:
   - course: Ph.D. in Psychology
@@ -13,7 +13,7 @@ education:
 
 email: "andrew.stewart@manchester.ac.uk"
 interests:
-- Open and Reproducible Research
+- Reproducible Research
 - Data Science
 - Experimental Psychology
 name: Andrew Stewart
