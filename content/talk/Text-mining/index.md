@@ -29,6 +29,7 @@ url_slides: ""
 url_video: ""
 ---
  
+You can scroll through the slides below using your arrow keys or mouse.
 
 {{< gdocs src="https://ajstewartlang.github.io/Chester_text_mining_talk/Chester_talk#1" >}}
 

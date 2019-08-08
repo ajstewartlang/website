@@ -30,7 +30,7 @@ url_video: ""
 ---
  
 {{% alert note %}}
-You can view the slides below and download the workshop GitHub repository from [here](https://github.com/ajstewartlang/SIPS_presentation).
+You can scroll through the slides below using your arrow keys or mouse and download the workshop GitHub repository from [here](https://github.com/ajstewartlang/SIPS_presentation).
 {{% /alert %}}
 
 {{< gdocs src="https://ajstewartlang.github.io/SIPS_2019/SIPS_presentation.html" >}}
