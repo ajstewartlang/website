@@ -96,6 +96,84 @@
     </item>
     
     <item>
+      <title>Keele 1 Day R Workshop 2019</title>
+      <link>/talk/keele_r/</link>
+      <pubDate>Mon, 09 Sep 2019 10:00:00 +0000</pubDate>
+      <guid>/talk/keele_r/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Welcome&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In this workshop we&amp;rsquo;ll cover the motivation behind engaging in reproducible research methods, the basics of R, data wrangling, and data visualisation. In the afternoon we&amp;rsquo;ll look at some standard statistical methods using the general linear model.&lt;/p&gt;
+
+&lt;p&gt;We will finish off by looking at how you can use Binder and GitHub to engage in fully reproducible research.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Before the Workshop - Installing R and RStudio&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You will probably want to bring a laptop for this course.  Beforehand, you should install R (the language) and RStudio (the interface that helps us interact with R) - each is available for OSX, Windows, and various flavours of Unix. You can install R from here:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.stats.bris.ac.uk/R/&#34; target=&#34;_blank&#34;&gt;https://www.stats.bris.ac.uk/R/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And RStudio from here:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.rstudio.com/products/rstudio/download/#download&#34; target=&#34;_blank&#34;&gt;https://www.rstudio.com/products/rstudio/download/#download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Course Material&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You can download all the slides, R scripts, R Markdown scripts, and datasets that I will use in the workshop by clicking on the &amp;ldquo;Clone or download&amp;rdquo; buton on my GitHub repo and then selecting &amp;ldquo;Download ZIP&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/ajstewartlang/Keele_Sept_2019&#34; target=&#34;_blank&#34;&gt;https://github.com/ajstewartlang/Keele_Sept_2019&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://github.com/ajstewartlang/Keele_Sept_2019/blob/master/icon.png?raw=true&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+Here you&amp;rsquo;ll find separate Morning and Afternoon folders.  The Morning and Afternoon folders contain the slides, R and R Markdown scripts, and the data I use in the slides. Additionally, you&amp;rsquo;ll also find a &lt;em&gt;Cheat Sheets and Handy Guides&lt;/em&gt; folder which contains a number of helpful reference resources.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Worksheets&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You can view the first worksheet here:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ajstewartlang.github.io/Keele_2019/worksheets/worksheet1.html&#34; target=&#34;_blank&#34;&gt;http://ajstewartlang.github.io/Keele_2019/worksheets/worksheet1.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And the second worksheet here:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ajstewartlang.github.io/Keele_2019/worksheets/worksheet2.html&#34; target=&#34;_blank&#34;&gt;http://ajstewartlang.github.io/Keele_2019/worksheets/worksheet2.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Online R Resources&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Below are some helpful R resources - it would be useful to look at the first one before the workshop.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Online introductory guide to R, RStudio, and R Markdown.
+This is a very clear and focused introduction to R, RStudio, and R Markdown.  You probably want to read the first four chapters sooner rather than later&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://rbasics.netlify.com&#34; target=&#34;_blank&#34;&gt;http://rbasics.netlify.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;R for Data Science online book - Garrett Grolemund and Hadley Wickham
+This is the online interactive version of the book of the same name.  It focuses more on the data science side of things than on statistics per se, and is very useful (especially in terms of data wrangling).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://r4ds.had.co.nz&#34; target=&#34;_blank&#34;&gt;http://r4ds.had.co.nz&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;R Graphics Cookbook
+The following &lt;em&gt;cookbook&lt;/em&gt; contains lots of useful examples of graphing using the ggplot2 package in R.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.cookbook-r.com/Graphs/&#34; target=&#34;_blank&#34;&gt;http://www.cookbook-r.com/Graphs/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have any questions in advance of the course, feel free to drop me an email (Andrew.Stewart@manchester.ac.uk)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Affective theory of mind inferences contextually influence the recognition of emotional facial expressions.</title>
       <link>/publication/journal-article/paper1/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
