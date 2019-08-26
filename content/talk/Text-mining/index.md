@@ -20,7 +20,7 @@ math: true
 projects:
 publishDate: "2019-08-07T11:30:00Z"
 slides: Text Mining and Twitter Scraping in R
-summary: Text Mining and Twitter Scraping in R
+summary: " "
 tags: []
 title: Text Mining and Twitter Scraping in R
 url_code: ""

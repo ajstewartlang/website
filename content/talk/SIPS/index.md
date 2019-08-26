@@ -20,7 +20,7 @@ math: true
 projects:
 publishDate: "2019-08-01T00:00:00Z"
 slides: SIPS workshop in Reproducibility.
-summary: Reproducible Data Visualizations Using R and Binder
+summary: " "
 tags: []
 title: Reproducible Data Visualizations Using R and Binder
 url_code: ""

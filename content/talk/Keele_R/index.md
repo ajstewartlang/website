@@ -4,7 +4,7 @@ all_day: false
 authors: []
 date: "2019-09-09T10:00:00Z"
 date_end: ""
-event: Keele 1 Day R Workshop - 9th September 2019
+event: Keele R Workshop - 9th September 2019
 event_url: https://github.com/ajstewartlang/Keele_Sept_2019
 featured: false 
 image:  
@@ -20,9 +20,9 @@ math: true
 projects:
 publishDate: "2019-08-26T00:00:00Z"
 slides: 
-summary: Keele 1 Day R Workshop 2019
+summary: " "
 tags: []
-title: Keele 1 Day R Workshop 2019
+title: Keele R Workshop
 url_code: ""
 url_pdf: ""
 url_slides: ""
