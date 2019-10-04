@@ -16,6 +16,12 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
+links:
+- icon: twitter 
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/ajstewart_lang
+location: University of Manchester, Manchester.
 ---
 
 
