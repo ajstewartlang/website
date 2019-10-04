@@ -1,33 +1,22 @@
 ---
-abstract:
-all_day: false
-authors: []
-date: "2019-11-08T11:00:00Z"
-date_end: ""
-event: MSci unit on Reproducible Data Science
-event_url: https://github.com/ajstewartlang/MSci_Reproducible_Data_Science
-featured: false 
-image:  
-  caption: 
-  focal_point: Right
-links:
-- icon: twitter 
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/ajstewart_lang
-location: University of Manchester
-math: true
-projects:
-publishDate: "2019-11-01T10:00:00Z"
-slides: 
-summary: " "
+title: MSci Reproducible Data Science
+author: ''
+date: '2019-11-08'
+slug: msci-data-science
+categories: []
 tags: []
-title: MSci unit on Reproducible Data Science
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2019-10-04T12:06:19+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
 ---
+
 
 In November and December 2019 I will be delivering my new MSci in Reproducible 
 Data Science. This unit covers everthing from the basics of data visualisation 
@@ -40,6 +29,3 @@ https://github.com/ajstewartlang/MSci_Reproducible_Data_Science
 
 If you scroll to the bottom of the page, you can even launch the unit in your
 browser using Binder.
-
-
-

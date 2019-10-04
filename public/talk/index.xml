@@ -5,7 +5,7 @@
     <link>/talk/</link>
       <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Talks and Workshops</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 08 Nov 2019 11:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 08 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Talks and Workshops</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>MSci unit on Reproducible Data Science</title>
-      <link>/talk/msci_data_science/</link>
-      <pubDate>Fri, 08 Nov 2019 11:00:00 +0000</pubDate>
-      <guid>/talk/msci_data_science/</guid>
+      <title>MSci Reproducible Data Science</title>
+      <link>/talk/msci-data-science/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/talk/msci-data-science/</guid>
       <description>&lt;p&gt;In November and December 2019 I will be delivering my new MSci in Reproducible
 Data Science. This unit covers everthing from the basics of data visualisation
 and data wrangling in R, through to the general linear model, mixed models, and
