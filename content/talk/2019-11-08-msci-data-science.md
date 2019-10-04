@@ -3,6 +3,7 @@ title: MSci Reproducible Data Science
 author: ''
 date: '2019-10-04T12:06:19+01:00'
 slug: msci-data-science
+event: ''
 categories: []
 tags: []
 subtitle: ''
