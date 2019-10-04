@@ -7,12 +7,12 @@ event: 'MSci Reproducible Data Science Unit, University of Manchester'
 categories: []
 tags: []
 subtitle: ''
-summary: ''
+summary: " "
 authors: []
 lastmod: '2019-10-04T12:06:19+01:00'
 featured: no
 image:
-  caption: ''
+  caption: '' 
   focal_point: ''
   preview_only: no
 projects: []
