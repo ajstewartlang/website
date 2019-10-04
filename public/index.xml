@@ -83,11 +83,11 @@
     </item>
     
     <item>
-      <title>MSci Reproducible Data Science</title>
+      <title>MSci Reproducible Data Science Unit</title>
       <link>/talk/msci-data-science/</link>
       <pubDate>Fri, 04 Oct 2019 12:06:19 +0100</pubDate>
       <guid>/talk/msci-data-science/</guid>
-      <description>&lt;p&gt;In November and December 2019 I will be delivering my new MSci in Reproducible
+      <description>&lt;p&gt;In November and December 2019 I will be delivering my new MSci unit in Reproducible
 Data Science. This unit covers everthing from the basics of data visualisation
 and data wrangling in R, through to the general linear model, mixed models, and
 how to engage in fully reproducible research by using tools such as Binder to

@@ -1,9 +1,9 @@
 ---
-title: MSci Reproducible Data Science
+title: MSci Reproducible Data Science Unit
 author: ''
 date: '2019-10-04T12:06:19+01:00'
 slug: msci-data-science
-event: 'MSci Reproducible Data Science, University of Manchester'
+event: 'MSci Reproducible Data Science Unit, University of Manchester'
 categories: []
 tags: []
 subtitle: ''
@@ -19,7 +19,7 @@ projects: []
 ---
 
 
-In November and December 2019 I will be delivering my new MSci in Reproducible 
+In November and December 2019 I will be delivering my new MSci unit in Reproducible 
 Data Science. This unit covers everthing from the basics of data visualisation 
 and data wrangling in R, through to the general linear model, mixed models, and 
 how to engage in fully reproducible research by using tools such as Binder to 
