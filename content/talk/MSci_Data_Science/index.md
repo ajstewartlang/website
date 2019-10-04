@@ -22,7 +22,7 @@ publishDate: "2019-11-01"
 slides: 
 summary: " "
 tags: []
-title: MSci unit on Reproducible Data Science
+title: MSci unit on Reproducible Data Science 
 url_code: ""
 url_pdf: ""
 url_slides: ""
