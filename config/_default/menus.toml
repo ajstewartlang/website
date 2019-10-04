@@ -8,12 +8,12 @@
 #  url = "#hero"
 #  weight = 10
 
-[[main]]
+[[main]] 
   name = "Posts"
   url = "#posts"
   weight = 41
 
-#[[main]]
+#[[main]]   
 #  name = "Projects"
 #  url = "#projects"
 #  weight = 30

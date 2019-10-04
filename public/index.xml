@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Andrew Stewart</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 08 Nov 2019 11:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Andrew Stewart</title>
@@ -83,11 +83,22 @@
     </item>
     
     <item>
-      <title>MSci_Data_Science_test</title>
-      <link>/post/msci-data-science-test/</link>
-      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/post/msci-data-science-test/</guid>
-      <description></description>
+      <title>MSci unit on Reproducible Data Science</title>
+      <link>/talk/msci_data_science/</link>
+      <pubDate>Fri, 08 Nov 2019 11:00:00 +0000</pubDate>
+      <guid>/talk/msci_data_science/</guid>
+      <description>&lt;p&gt;In November and December 2019 I will be delivering my new MSci in Reproducible
+Data Science. This unit covers everthing from the basics of data visualisation
+and data wrangling in R, through to the general linear model, mixed models, and
+how to engage in fully reproducible research by using tools such as Binder to
+capture your computational environemnt alongside your data and code. The
+materials for the six workshops that make up this unit can be found here:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/ajstewartlang/MSci_Reproducible_Data_Science&#34; target=&#34;_blank&#34;&gt;https://github.com/ajstewartlang/MSci_Reproducible_Data_Science&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you scroll to the bottom of the page, you can even launch the unit in your
+browser using Binder.&lt;/p&gt;
+</description>
     </item>
     
     <item>
