@@ -20,7 +20,7 @@ name: Andrew Stewart
 organizations:
 - name: University of Manchester
   url: ""
-role: Senior Lecturer in Language and Communication
+role: Fellow of the Software Sustainability Institute and Senior Lecturer
 social:
 - icon: envelope
   icon_pack: fas
