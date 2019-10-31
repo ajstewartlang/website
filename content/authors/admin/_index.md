@@ -15,7 +15,7 @@ email: "andrew.stewart@manchester.ac.uk"
 interests:
 - Reproducible Research
 - Data Science
-- Experimental Psychology
+- R
 name: Andrew Stewart
 organizations:
 - name: University of Manchester
