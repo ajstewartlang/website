@@ -27,6 +27,6 @@ subtitle = ""
 [[feature]]
   icon = "eye"
   icon_pack = "fas"
-  name = "Experimental Psychology"
+  name = "Reproducible Research"
 
 +++
