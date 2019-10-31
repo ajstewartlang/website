@@ -4,7 +4,7 @@ authors:
 bio: My interests include open research and reproducibility, data science, experimental psychology, and psycholinguistics. I am a fellow of the Software Sustainability Institute.
 education:
   courses:
-  - course: Ph.D. in Psychology
+  - course: Ph.D. in Cognitive Science
     institution: University of Glasgow
     year: 1998
   - course: B.Sc. Psychology (Hons.) 1st Class  
