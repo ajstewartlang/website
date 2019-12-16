@@ -26,5 +26,5 @@ We’ll hear talks about the [Software Sustainability Institute](https:www.softw
  
 After the last talk there’ll be a reception to give people the chance to meet and chat with the speakers and other attendees.  The event is open to everyone with early career researchers being particularly welcome!  Places are limited so please do register via the link in the official [advert](https://software.ac.uk/beware-results-may-vary-workshop-openness-means-enhancing-research-quality).
  
-If you have any questions, feel free to [contact me](mailto:Andrew.Stewart@manchester.ac.uk)
+If you have any questions, feel free to [contact me](mailto:Andrew.Stewart@manchester.ac.uk).
 
