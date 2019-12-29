@@ -1,6 +1,6 @@
 ---
 title: '“Beware: Results May Vary” - Workshop on Openness as a Means of Enhancing
-  Research Quality'
+  Research Quality, February 26th, 2020'
 author: ''
 date: '2019-12-16'
 slug: beware-results-may-vary-workshop-on-openness-as-a-means-of-enhancing-research-quality
