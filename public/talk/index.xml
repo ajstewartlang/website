@@ -5,12 +5,33 @@
     <link>/talk/</link>
       <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Talks and Workshops</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 04 Oct 2019 12:06:19 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 28 Jan 2020 16:15:53 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Talks and Workshops</title>
       <link>/talk/</link>
     </image>
+    
+    <item>
+      <title>Reasoning as we read.</title>
+      <link>/talk/reasoning-as-we-read-how-do-readers-understand-conditional-statements-implied-meaning-and-indirect-meaning-during-comprehension/</link>
+      <pubDate>Tue, 28 Jan 2020 16:15:53 +0000</pubDate>
+      <guid>/talk/reasoning-as-we-read-how-do-readers-understand-conditional-statements-implied-meaning-and-indirect-meaning-during-comprehension/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Reasoning as we read: how do readers understand conditional statements, implied meaning, and indirect meaning during comprehension?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The processes involved in reading require the rapid integration of multiple sources of semantic and pragmatic information to build a coherent mental representation of the text at hand.  The comprehension of conditional statements poses a particular challenge as such statements often require processing at multiple levels.  For example, indicative conditionals require the reader to imagine a hypothetical situation (the if… clause) within which to evaluate the consequent (the then… clause).  Counterfactual conditionals require the reader to ‘undo reality’ in order to mentally represent the hypothetical situation being described.  Conditionals form the basis of rhetorically powerful slippery slope arguments, and are used extensively in the utterance of promises, threats, tips, and warnings.  In this talk I will present the results of a series of (mainly) eye-tracking experiments we have conducted on how conditionals are processed during reading.  I will then finish with a discussion of the Open Research revolution and how I would now do things very differently.&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    You can scroll through the slides below or download them from my GitHub repository &lt;a href=&#34;https://github.com/ajstewartlang/ajstewartlang.github.io/blob/master/talks/linguistics_talk.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;responsive-wrap&#34;&gt;
+  &lt;iframe src=&#34;https://ajstewartlang.github.io/talks/linguistics_talk.pdf&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>MSci Reproducible Data Science Unit</title>

@@ -7,8 +7,6 @@ tags: ["R", "Binder", "Reproducibility"]
 ---
 The [Society for the Improvement of Psychological Science](https://www.improvingpsych.org/SIPS2019) held their fourth annual meeting in Rotterdam earlier this summer.  This is the first time that the Society has met outside the U.S.A. and the first time that many European-based early career researchers have had the opportunity to attend.  As a reflection of the level of interest, registration for the conference reached capacity well in advance of the closing of the early-bird registration rate.  In response to this, the organizers booked an additional neighboring venue to allow 17 sessions to run in parallel.  The sessions consisted of Hackathons, Workshops, Unconferences, and Lightning Talks with a huge variety of topics including sessions on teaching reproducibility in the classroom, promoting diversity within the Psychological Open Research community, data management and documentation, and how to develop your own workflow for reproducible research.  The total number of people registered ended up being just over 500, most of whom were early career researchers.  
 
-<img src="/post/sips.png" alt="drawing" width="300"/>  
-
 On the second day of the conference Oli Clark (from Manchester Metropolitan University) and I ran a 3 hour workshop on Reproducible Data Visualizations Using R and Binder.  The purpose of the workshop was to encourage the attendees to use Binder as a way of capturing their computational environments alongside their code and data to ensure full reproducibility of their research workflows.  The workshop was oversubscribed and ended up being standing room only!  
  
 <img src="https://ajstewartlang.github.io/images/andrew_sips.jpeg" alt="drawing" width="200"/>
