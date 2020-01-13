@@ -2,20 +2,9 @@
 authors:
 - admin
 bio: My interests include open research and reproducibility, data science, experimental psychology, and psycholinguistics. I am a fellow of the Software Sustainability Institute.
-education:
-  courses:
-  - course: Ph.D. in Cognitive Science
-    institution: University of Glasgow
-    year: 1998
-  - course: B.Sc. Psychology (Hons.) 1st Class  
-    institution: University of Glasgow
-    year: 1994
 
 email: "andrew.stewart@manchester.ac.uk"
-interests:
-- Reproducible Research
-- Data Science
-- R
+
 name: Andrew Stewart
 organizations:
 - name: University of Manchester
@@ -40,6 +29,8 @@ user_groups:
 - Visitors
 ---
 
-I am a cognitive and data scientist at the University of Manchester and Fellow of the Software Sustainability Institute interested in experimental pragmatics, open science, and reproducible research. My current research projects include how people understand data visualisations, how readers understand meaning that is implied by a linguistic utterance (rather than that which is conveyed explicitly), the mechanisms by which conditional information is processed and mentally represented, and (more generally) how meaning is integrated across sentences. My research involves the use of eye-tracking to examine moment-by-moment processing. 
+I am a cognitive and data scientist at the University of Manchester and Fellow of the Software Sustainability Institute interested in experimental pragmatics, open science, and reproducible research. 
+
+My current research projects include how people understand data visualisations, how readers understand meaning that is implied by a linguistic utterance (rather than that which is conveyed explicitly), the mechanisms by which conditional information is processed and mentally represented, and (more generally) how meaning is integrated across sentences. My research involves the use of eye-tracking to examine moment-by-moment processing. 
 
 I teach data science and statistical methods to students in Psychology and Biological Sciences with an emphasis on R and reproducibility.  
