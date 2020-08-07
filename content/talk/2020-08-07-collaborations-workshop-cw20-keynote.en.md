@@ -1,7 +1,7 @@
 ---
 title: Collaborations Workshop (CW20) Keynote
 author: Andrew Stewart
-date: '2020-03-31'
+date: '2020-03-31T10:00:53Z'
 event: Collaborations Workshop (CW20)
 slug: collaborations-workshop-cw20-keynote
 categories: []
