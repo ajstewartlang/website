@@ -1,5 +1,5 @@
 ---
-title: 'Reasoning as we read'
+title: 'Reasoning As We Read'
 author: ''
 date: '2020-01-28T16:15:53Z'
 event: UoM Linguistics Seminar
