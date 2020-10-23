@@ -29,8 +29,8 @@ user_groups:
 - Visitors
 ---
 
-I am a cognitive psychologist and data scientist at the University of Manchester and Fellow of the Software Sustainability Institute interested in experimental pragmatics, open science, and reproducible research. 
+I am a cognitive psychologist at the University of Manchester and Fellow of the Software Sustainability Institute. 
 
 My current research projects include how people understand data visualisations, how readers understand meaning that is implied by a linguistic utterance (rather than that which is conveyed explicitly), the mechanisms by which conditional information is processed and mentally represented, and (more generally) how meaning is integrated across sentences. My research involves the use of eye-tracking to examine moment-by-moment processing. 
 
-I teach data science and statistical methods to students in Psychology and Biological Sciences with an emphasis on R and reproducibility.  
+I teach data science and statistical methods to students in Psychology and Biological Sciences with an emphasis on R, open research, and reproducibility.  
