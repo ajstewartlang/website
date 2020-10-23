@@ -19,7 +19,7 @@ projects: []
 
 In the summer of 2020 I started recording a bunch of workshops as part of two of the Masters level courses I teach at the University of Manchester. I realised they might have broader interest so I decided to share a subset of them via a website. Hopefully you will find them useful. No previous R experience is expected and I take you through all the stages (right from the basics of installing R and RStudio Desktop) step-by-step. 
 
-Just click on the image below to go to the workshops.
+Just click on the image below to go to the workshops. 
  
 [![Image of site](https://ajstewartlang.github.io/images/r_workshops.png)](https://r-openresearch-reproducibility.netlify.app/)
 
