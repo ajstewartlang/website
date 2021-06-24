@@ -1479,6 +1479,54 @@ window.onload = function() {
   PagedTableDoc.initAll();
 };
 </script>
+<style type="text/css">
+a.anchor-section {margin-left: 10px; visibility: hidden; color: inherit;}
+a.anchor-section::before {content: '#';}
+.hasAnchor:hover a.anchor-section {visibility: visible;}
+</style>
+<script>// Anchor sections v1.0 written by Atsushi Yasumoto on Oct 3rd, 2020.
+document.addEventListener('DOMContentLoaded', function() {
+  // Do nothing if AnchorJS is used
+  if (typeof window.anchors === 'object' && anchors.hasOwnProperty('hasAnchorJSLink')) {
+    return;
+  }
+
+  const h = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+
+  // Do nothing if sections are already anchored
+  if (Array.from(h).some(x => x.classList.contains('hasAnchor'))) {
+    return null;
+  }
+
+  // Use section id when pandoc runs with --section-divs
+  const section_id = function(x) {
+    return ((x.classList.contains('section') || (x.tagName === 'SECTION'))
+            ? x.id : '');
+  };
+
+  // Add anchors
+  h.forEach(function(x) {
+    const id = x.id || section_id(x.parentElement);
+    if (id === '') {
+      return null;
+    }
+    let anchor = document.createElement('a');
+    anchor.href = '#' + id;
+    anchor.classList = ['anchor-section'];
+    x.classList.add('hasAnchor');
+    x.appendChild(anchor);
+  });
+});
+</script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -1656,14 +1704,15 @@ ORCiD: <a href="http://orcid.org/0000-0002-9795-4104" class="uri">http://orcid.o
 </div>
 <div id="education" class="section level2">
 <h2>Education</h2>
-<p>1994 - 1998, Ph.D. Cognitive Psychology, University of Glasgow, Scotland.<br />
+<p>1994 - 1998, Ph.D. Psychology, University of Glasgow, Scotland.<br />
 1990 - 1994, B.Sc. (Hons.) Psychology First Class, University of Glasgow, Scotland.</p>
 </div>
 <div id="leadership-and-service" class="section level2">
 <h2>Leadership and Service</h2>
 <div id="internal-roles" class="section level3">
 <h3>Internal Roles</h3>
-<p>2020 - current, Academic Sponsor and Chair of Project E - Collaborations and Networking, University of Manchester.<br />
+<p>2020 - current, University of Manchester Institutional Lead for Open and Reproducible Research.<br />
+2020 - current, Academic Sponsor and Chair of Project E - Collaborations and Networking, University of Manchester.<br />
 2019 - current, Co-organiser of the University of Manchester R Users’ Group.<br />
 2019 - current, Member, University of Manchester Open Research Strategy Group.<br />
 2018 - current, Co-founder and co-chair of the Open Research Working Group at the University of Manchester.<br />
@@ -1684,9 +1733,10 @@ ORCiD: <a href="http://orcid.org/0000-0002-9795-4104" class="uri">http://orcid.o
 </div>
 <div id="external-roles" class="section level3">
 <h3>External Roles</h3>
-<p>2020 - current, Associate Editor, <em>Collabra: Psychology</em>.<br />
+<p>2021 - current, Editor, <em>Journal of Open Source Software</em>.<br />
+2020 - current, Associate Editor, <em>Collabra: Psychology</em>.<br />
 2019 - current, Mentor, Software Sustainability Institute.<br />
-2019 - current, Mentor, Open Life Sciences.<br />
+2019 - 2021, Mentor, Open Life Sciences.<br />
 2016 - current, Member, EPSRC Associate Peer Review College.<br />
 2015 - 2018, External Examiner, M.Res. in Psychological Methods, University of Sussex.<br />
 2012 - 2015, External Examiner, M.Sc. in Psychological Research Methods, University of Leicester.<br />
@@ -1705,10 +1755,12 @@ Member, Experimental Psychology Society.</p>
 <div id="open-research-courses-workshops-and-talks" class="section level2">
 <h2>Open Research Courses, Workshops, and Talks</h2>
 <ul>
+<li><a href="https://docs.google.com/presentation/d/15-JG5T850_JV7OWNbAA3WV3j1lG7lmYUECnwEYbJRJQ/edit?usp=sharing">From The Replication Crisis to Open Research: How the ways in which we carry out research are fundamentally changing</a>, Methods at Manchester Workshop, University of Manchester, November 2020.</li>
+<li><a href="https://docs.google.com/presentation/d/1ekHek-pZL_foUrAhF090PqqSUOwEP0EIWz09unk_oVQ/edit?usp=sharing">Adopting Open and Reproducible Research Practices: A Response to The Replication Crisis</a>, University of Manchester Open Research Exchange, November 2020. <a href="https://doi.org/10.6084/m9.figshare.c.5211278.v6">https://doi.org/10.6084/m9.figshare.c.5211278.v6</a></li>
 <li><a href="http://ajstewartlang.github.io/Binder_slides.pdf">Using R and Binder for Fully Reproducible Research</a>, University of Chester R Users’ Group, May 2020.</li>
 <li><a href="https://hackmd.io/@ajstewartlang/BJEJz0EW8#/">Workshop on Embedding Reproducibilty in the UG and PGT Curricula</a>, Collaborations Workshop 2020 (CW20), Queen’s University Belfast (virtual), March 2020.</li>
 <li><a href="https://figshare.com/articles/Open_Research/12155940">Keynote on Open Research</a>, Collaborations Workshop 2020 (CW20), Queen’s University Belfast (virtual), March 2020.</li>
-<li><a href="https://hackmd.io/@ajstewartlang/r1ec-g5l8">Beware: Results May Vary (RMV20). Openness as a Way of Enhancing Research Quality</a>. North West Open Research Hub Event, February 2020.</li>
+<li><a href="https://hackmd.io/@ajstewartlang/r1ec-g5l8">Beware: Results May Vary (RMV20). Openness as a Way of Enhancing Research Quality</a>, North West Open Research Hub Event, February 2020.</li>
 <li><a href="https://ajstewartlang.github.io/talks/OLS_talk/index.html">Open Source Software in Research</a>, Webinar for <a href="https://openlifesci.org" class="uri">https://openlifesci.org</a>, February 2020.</li>
 <li><a href="http://ajstewartlang.github.io/Chester_text_mining_talk/Chester_talk.html">Text Mining and Twitter Scraping using R</a>, University of Chester R Users’ Group, September 2019.</li>
 <li><a href="https://ajstewartlang.github.io/Keele_Sept_2019/Welcome.html">Introduction to R</a>, Keele University, September 2019.</li>
@@ -1723,17 +1775,17 @@ Member, Experimental Psychology Society.</p>
 <div id="research-statement-a-commitment-to-open-and-reproducible-research" class="section level2">
 <h2>Research Statement: A Commitment to Open and Reproducible Research</h2>
 <p>I am an experimental psychologist and data scientist at the University of Manchester interested in experimental pragmatics, open science, and reproducible research. My current research projects include how people understand data visualisations, how readers understand meaning that is implied by a linguistic utterance (rather than that which is conveyed explicitly), the mechanisms by which conditional information is processed and mentally represented, and (more generally) how meaning is integrated across sentences. My research involves the use of eye-tracking to examine moment-by-moment processing. I teach data science and statistical methods to students in Psychology and Biological Sciences with an emphasis on R and reproducibility. I am also an associate member of the <a href="https://esciencelab.org.uk">eScience lab</a> in the School of Computer Science at the University of Manchester.</p>
-<p>In 2019 I was awarded a Fellowship from the <a href="https://www.software.ac.uk">Software Sustainability Institute</a> (SSI) that has allowed me to develop and advocate for an open research community across the North West of England. I co-founded and organise the University of Manchester cross-faculty Open Research Working Group, sit on the University Open Research Strategy Group, organised the February 2020 <a href="https://hackmd.io/@ajstewartlang/r1ec-g5l8">NW Open Research Hub “Beware: Results May Vary” event on Open Research Practices and Reproducibility</a>, and work closely with others engaged in advocating for the adoption of open research practices in nearby institutions. I mentor junior colleagues who are working in the open research space including as part of the <a href="https://www.software.ac.uk">SSI</a> and the Mozilla-funded <a href="https://openlifesci.org">Open Life Sciences</a> programme. I was recently appointed Associate Editor for the journal Collabra: Psychology - this is the official journal for the Society for the Improvement of Psychological Science and is centred on the principles of open and reproducible research.</p>
+<p>In 2019 I was awarded a Fellowship from the <a href="https://www.software.ac.uk">Software Sustainability Institute</a> (SSI) that has allowed me to develop and advocate for an open research community across the North West of England. I co-founded and organise the University of Manchester cross-faculty Open Research Working Group, sit on the University Open Research Strategy Group, organised the February 2020 <a href="https://hackmd.io/@ajstewartlang/r1ec-g5l8">NW Open Research Hub “Beware: Results May Vary” event on Open Research Practices and Reproducibility</a>, and work closely with others engaged in advocating for the adoption of open research practices in nearby institutions. I mentor colleagues who are working in the open research space including as part of the <a href="https://www.software.ac.uk">SSI</a> and the Mozilla-funded <a href="https://openlifesci.org">Open Life Sciences</a> programme.</p>
 </div>
 <div id="undergraduate-and-m-level-teaching" class="section level2">
 <h2>Undergraduate and M-Level Teaching</h2>
 <ul>
 <li>M.Sci., Reproducible Data Science, Module Leader (2019-current).</li>
-<li><a href="https://github.com/ajstewartlang/MSci_Reproducible_Data_Science">M.Sci., Reproducible Data Science</a> (2019-current).</li>
+<li><a href="https://andrew-biol33031.netlify.app/">M.Sci., Reproducible Data Science</a> (2019-current).</li>
 <li>M.Res. Advanced Workshops in Statistics, Module Leader (2012-current).</li>
-<li><a href="https://github.com/ajstewartlang/MRes_Advanced_Workshops">M.Res. Advanced Workshops in Statistics</a>, (2012-current).</li>
+<li><a href="https://mres-biol-63112.netlify.app/">M.Res. Advanced Workshops in Statistics</a>, (2012-current).</li>
 <li>M.Res. Advanced Data Skills, Open Science, and Reproducibility, Module Leader (2019-current).</li>
-<li><a href="https://github.com/ajstewartlang/MRes_Advanced_Data_Skills">M.Res. Advanced Data Skills, Open Science, and Reproducibility</a> (2019-current).</li>
+<li><a href="https://advanced-data-skills-reproducibility.netlify.app/">M.Res. Advanced Data Skills, Open Science, and Reproducibility</a> (2019-current).</li>
 <li>M.Sc., Clinical and Health Psychology Statistics (2010-2013).</li>
 <li>Third Year Projects (2003-current).</li>
 <li>Third Year Issues in Language Research (2005-2013).</li>
@@ -1783,6 +1835,7 @@ Member, Experimental Psychology Society.</p>
 <div id="publications-in-peer-reviewed-journals" class="section level2">
 <h2>Publications in Peer-Reviewed Journals</h2>
 <ul>
+<li>Stewart, A.J., Singmann, H., Haigh, M., Wood, J.S., &amp; Douven, I. (2021). Tracking the eye of the beholder: is explanation subjective? <em>Journal of Cognitive Psychology</em>.</li>
 <li>Phillips, M., Wilcoxson, J.M., Howard, E., du Sautoy, M., Willcox, P., Jones, L.A., Stewart, A.J., &amp; De Roure, D. (2020). What determines the perception of segmentation in contemporary music? <em>Frontiers in Psychology, 11,</em> 1001.</li>
 <li>Muhinyi, A., Hesketh, A., Stewart, A.J., &amp; Rowland, C. (2020). Story choice matters for caregiver extratextual talk during shared reading with preschoolers. <em>Journal of Child Language, 47,</em> 633-654.</li>
 <li>Williams, E., Yüksel, E.M., Stewart, A.J., &amp; Jones, L.A. (2019). Modality differences in timing and the filled-duration illusion: testing the pacemaker rate explanation. <em>Attention, Perception, &amp; Psychophysics, 81,</em> 823-845.</li>
@@ -1826,6 +1879,13 @@ Member, Experimental Psychology Society.</p>
 <li>Branigan, H.P., Pickering, M.J., Liversedge, S.P., Stewart, A.J. &amp; Urbach, T.P. (1995). Syntactic priming: investigating the mental representation of language. <em>Journal of Psycholinguistic Research, 24,</em> 489-506.</li>
 </ul>
 </div>
+<div id="preprints" class="section level2">
+<h2>Preprints</h2>
+<ul>
+<li>Turner, A., Topor, M., Stewart, A. J., Owen, N., Kenny, A. R., Jones, A. L., &amp; Ellis, D. A. (2020, October 30). Open Code/Software: A primer from UKRN. <a href="https://doi.org/10.31219/osf.io/qw9ck" class="uri">https://doi.org/10.31219/osf.io/qw9ck</a></li>
+<li>Williams, E.A., Solodow, E., Henderson, J., Stewart, A.J., Jones, L.A. (2020). Do Click Trains Dilate Time Perception Due to Physiological Arousal? PsyArXiv. <a href="http://osf.io/78w43/" class="uri">http://osf.io/78w43/</a></li>
+</ul>
+</div>
 <div id="journal-service" class="section level2">
 <h2>Journal Service</h2>
 <p>Reviewer for: <em>Behavior Research Methods, Brain Research, British Journal of Psychology, Cognition, Cognitive Processing, Discourse Processes, Experimental Psychology, Journal of Cognitive Psychology, Journal of Experimental Psychology: Learning, Memory, and Cognition, Journal of Language and Social Psychology, Journal of Memory and Language, Journal of Pragmatics, Journal of Research in Reading, Language and Cognitive Processes, Linguistics and Language Compass, Memory &amp; Cognition, Neuropsychologia, PLoS ONE, Psychonomic Bulletin and Review, Quarterly Journal of Experimental Psychology, Spanish Journal of Psychology, Thinking and Reasoning, AMLaP, Cognitive Science Society, Society for Text and Discourse,</em> Economic and Social Research Council (reviewer and rapporteur).</p>
@@ -1854,82 +1914,82 @@ Member, Experimental Psychology Society.</p>
 <div id="conference-proceedings-and-abstracts" class="section level2">
 <h2>Conference Proceedings and Abstracts</h2>
 <ul>
-<li><p>Williams, E. A., Yüksel, E. M., Stewart, A. J., &amp; Jones, L. A. (2018). Testing the Pacemaker Explanation: A Multi-Pronged Behavioural Investigation of the Human Timing System. Presentation at the joint Experimental Psychology Society and Canadian Society for Brain, Behaviour and Cognitive Science. Newfoundland, Canada, July, 2018.</p></li>
-<li><p>Williams, E.A., Stewart, A.J., &amp; Jones, L.A. (2017). Modality differences in timing: Testing the pacemaker speed explanation. 1st Annual Conference of the Timing Research Forum. University of Strasbourg, France, October, 2017.<br />
-</p></li>
-<li><p>Le-luan, E., Wood, J., Haigh, M., Yao, B., &amp; Stewart, A.J. (2017). Would you like to come up and see my etchings? Sensitivity to contextual cues in the comprehension of indirect meaning. Architectures and Mechanisms of Language Processing, Lancaster, September 2017.</p></li>
-<li><p>Williams, E.A., Stewart, A.J., &amp; Jones, L.A. (2017). Modality differences in timing: Testing the pacemaker speed explanation. 39th Annual Conference of the Cognitive Science Society. London, England, UK, July 2017.</p></li>
-<li><p>Williams, E.A., Stewart, A.J., &amp; Jones, L.A. (2017). Modality differences in timing: A new take on an old issue. Modularity in Time Perception and Timed Behaviour EPS-funded workshop, Liverpool John Moores University, England, UK, January 2017.</p></li>
-<li><p>Williams, E., Stewart, A.J., &amp; Jones, L.A. (2016). Investigating the pacemaker of the internal clock in humans. Experimental Psychology Society, Oxford, England, July 2016</p></li>
-<li><p>Stewart, A.J., &amp; Haigh, M. (2016). Slippery Slope Arguments imply opposition to change. Experimental Psychology Society, London, England, January 2016.</p></li>
-<li><p>Stewart, A.J., &amp; Haigh, M. (2015). Reasoning as we read: A psycholinguistic perspective on the processing of conditionals. London Reasoning Workshop, August 2015.</p></li>
-<li><p>McGarrigle, R., Munro, K.J., Stewart, A.J., &amp; Dawes, P. (2015). Listening effort and fatigue: Insights from pupillometry. Experimental Psychology Society, London, England, January 2015.</p></li>
-<li><p>Vass, C., Rigby, D., Campbell, S., Tate, K., Stewart, A., &amp; Payne, K. (2014) Using eye-tracking to explore the framing of risk attributes in a discrete choice experiment. 1st Meeting of the International Academy of Health Preference Research, Amsterdam, 2014.</p></li>
-<li><p>Vass, C., Rigby, D., Campbell, S., Tate, K., Stewart, A., &amp; Payne, K. (2014) Investigating the framing of risk attributes in a discrete choice experiment: an application of eye-tracking and think aloud. Society for Medical Decision Making 36th Annual North American Meeting, Miami, 2014.</p></li>
-<li><p>Wood, J., Haigh, M., Kinsella, J., &amp; Stewart, A.J. (2014). The online comprehension of indirect replies: Evidence from eye-tracking. Architectures and Mechanisms of Language Processing, Edinburgh, September 2014.</p></li>
-<li><p>Wood, J., Stewart, A.J., &amp; Connell, L. (2013). Read this and I’ll pay you a fiver: Eye tracking implicit meaning in conditionals. Experimental Psychology Society, Bangor, England, July 2013.</p></li>
-<li><p>McGarrigle, R., Dawes, P., Stewart, A.J., &amp; Munro, K. (2013). What is this thing called ‘Listening Effort’? Second International Conference on Cognitive Hearing Science for Communication. Linköping, Sweden. 2013.</p></li>
-<li><p>Tate, K., Stewart, A.J., &amp; Daly, M. (2013). The effect of priming on attitudes: an experimental approach. Experimental Psychology Society, Lancaster, England, April 2013.</p></li>
-<li><p>McGarrigle, R., Stewart, A.J., &amp; Connell, L. (2012). Can language help to shape the way we think? A cross-linguistic investigation into the effect of noun-adjective order on conceptual representation. Embodied and Situated Language Processing, Newcastle, 2012.</p></li>
-<li><p>Adank, P., Stewart, A.J., &amp; Connell, L. (2012). Vocal Imitation Positively Affects Language Attitudes. International Symposium on Imitation and Convergence in Speech, Aix-en-Provence, France 2012.</p></li>
-<li><p>Tate, K., Stewart, A., &amp; Daley, M. (2012). The Predictive Role of Implicit and Explicit Attitudes in Consumers’ Packaging Choice. American Psychological Association Convention, Florida, 2012.</p></li>
-<li><p>Bonnefon, J.-F., Haigh, M. &amp; Stewart, A.J. (2012). Utility templates for consequential arguments. 7th International Conference on Thinking, Birkbeck, London 2012.</p></li>
-<li><p>Wood, J., Stewart, A.J., &amp; Connell, L. (2012). Read this and I’ll pay you a fiver: Implicit meaning is processed differently in conditionals and conjunctive paraphrases. Experimental Psychology Society, Hull, England, April 2012.</p></li>
-<li><p>Stewart, A.J., Haigh, M., &amp; Ferguson, H.J. (2012). Representing hypothetical situations: an eye-tracking investigation into readers’ sensitivity to utility and speaker control in the comprehension of conditionals. Experimental Psychology Society, Hull, England, April 2012.</p></li>
-<li><p>Haigh, M., Wood, J., Connell, L., &amp; Stewart, A.J., (2011). Comprehending advice and inducements: Evidence from conditionals and conjunctions. Proceedings of the European Conference on Cognitive Science.</p></li>
-<li><p>Haigh, M., &amp; Stewart, A.J. (2010). An investigation into readers’ sensitivity to conditional indirect meaning. 51st annual meeting of the Psychonomics Society, St. Louis, November 2010.</p></li>
-<li><p>Stewart, A.J., Haigh, M., &amp; Connell, L. (2010). Evaluating the probability of indicative conditionals as they are read. 51st annual meeting of the Psychonomics Society, St. Louis, November 2010.</p></li>
-<li><p>Stewart, A.J., Haigh, M., &amp; Connell, L. (2010). A psycholinguistic perspective on the processing of conditionals. Architectures and Mechanisms of Language Processing conference, York, September 2010.</p></li>
-<li><p>Haigh, M., &amp; Stewart, A.J. (2010). Promises and tips: Are readers sensitive to conditional indirect meaning? Experimental Psychology Society, Manchester, England, July 2010.</p></li>
-<li><p>Haigh, M., &amp; Stewart, A.J. (2010). Reasoning as we read: an investigation into the processing of non-basic conditionals. Experimental Psychology Society, London, January 2010.</p></li>
-<li><p>Haigh, M., &amp; Stewart, A.J. (2009). The online comprehension of non-basic indicative conditionals: an investigation into reasoning as we read. Society for Text and Discourse, Rotterdam, July 2009.</p></li>
-<li><p>Kirkham, J, A., Kidd, E, J., &amp; Stewart, A, J. (2009). The effect of Steiner, Montessori and Mainstream education upon children’s graphic, language and pretend play development. BPS Educational Psychology Conference, November 2009.</p></li>
-<li><p>Kirkham, J., Kidd, E., &amp; Stewart, A. (2009). Language and symbolic play development during the fourth year. Society for Research in Child Development Conference, Denver, Colorado, April 2009.</p></li>
-<li><p>Kirkham, J., Kidd, E., &amp; Stewart, A. (2008). The relationship between development in graphic, language and symbolic play domains during the fourth year. BPS Developmental Section Annual Conference, Oxford, September 2008.</p></li>
-<li><p>Haigh, M., Stewart, A.J. &amp; Kidd, E. (2008). Constraints on the construction of counterfactual situation representations during comprehension: an examination of on-line suppositional processing. Fourteenth Architectures and Mechanisms of Language Processing Conference, Cambridge, England, September 2008.</p></li>
-<li><p>Goodman, R. L., Webb, T. L &amp; Stewart, A. J. (2008). Communicating stereotypes: is non-fictional information communicated in the same way as fictional information? 15th European Association of Experimental Social Psychology General Meeting, Opatija, Croatia, June 2008.</p></li>
-<li><p>Stewart, A.J., &amp; Kidd, E. (2007). Immediate sensitivity to character-attribute and spatial anomalies during reading: evidence against initial underspecification. Thirteenth Architectures and Mechanisms of Language Processing Conference, Turku, Finland, August 2007.</p></li>
-<li><p>Stewart, A.J., &amp; Kidd, E. (2007). Processing globally ambiguous pronouns. Society for Text and Discourse, Glasgow, July 2007.</p></li>
-<li><p>Stewart, A.J., &amp; Kidd, E. (2007). Sensitivity to temporal, spatial, and character attribute information. Society for Text and Discourse, Glasgow, July 2007.</p></li>
-<li><p>Goodman, R., Stewart, A.J., &amp; Webb, T. (2007). The immediate influence of gender stereotypes on reading. Society for Text and Discourse, Glasgow, July 2007.</p></li>
-<li><p>Stewart, A.J., Holler, J., &amp; Kidd, E. (2007). Shallow processing of ambiguous pronouns: evidence for delay. Experimental Psychology Society, Edinburgh, July 2007.</p></li>
-<li><p>Poliakoff, E., Makin, A., Chen, J., &amp; Stewart, A. (2007). Faster and slower: The effect of previously viewed velocities on current velocity estimates. Experimental Psychology Society, London, January 2007.</p></li>
-<li><p>Kidd., E., Stewart, A.J., &amp; Serratrice, L. (2006). Overcoming lexical biases: the influence of the referential scene. Nineteenth CUNY Sentence Processing Conference: Workshop on Child Language, City University New York, March 2006.</p></li>
-<li><p>Galpin, A., Dixon, C., Stewart, A., &amp; Poliakoff, E. (2005). Action Observation in Expert and Non-Expert Cyclists. Seventeenth meeting of the British Ocular Motor Group, Birmingham, December 2005.</p></li>
-<li><p>Stewart, A.J., Holler, J., &amp; Kidd., E. (2005). Pronoun resolution varies as a function of depth of reading. Eighteenth CUNY Sentence Processing Conference, University of Arizona, Arizona, March 2005.</p></li>
-<li><p>Holler, J., Stewart, A.J., &amp; Kidd, E. (2005). Task demands influence how people process pronouns. British Psychological Society, University of Manchester, Manchester, March 2005.</p></li>
-<li><p>Stewart, A.J., &amp; Holler, J. (2005). Depth of Processing Influences Pronoun Resolution. Experimental Psychology Society, University College London, London, January 2005.</p></li>
-<li><p>Stewart, A.J., Pickering, M.J., &amp; Sturt, P. (2003). Using eye tracking to measure the acceptability of brand extensions. Society for Applied Research in Memory and Cognition, University of Aberdeen, Aberdeen, July 2003.</p></li>
-<li><p>Stewart, A.J., Sanford A.J., Sturt, P., Dawydiak, E. &amp; Niswander, E. (2003). Text change detection in reading: how people represent product related information. Society for Applied Research in Memory and Cognition, University of Aberdeen, Aberdeen, July 2003.</p></li>
-<li><p>Newby, B., Beesley, G., &amp; Stewart, A.J. (2003). Motion tracking as a non-verbal method for studying human behaviour. Society for Applied Research in Memory and Cognition, University of Aberdeen, Aberdeen, July 2003.</p></li>
-<li><p>Stewart, A.J., Newby, B., Shaw, K., Purdy, K., &amp; Gale, A. (2003). Measuring how consumers interact with an embodied agent. Society for Applied Research in Memory and Cognition, University of Aberdeen, Aberdeen, July 2003.</p></li>
-<li><p>Sanford, A.J., Sturt P., Dawydiak, E., &amp; Stewart, A.J. (2002). Depth of processing, underspecification, and text change-blindness. Eighth Architectures and Mechanisms of Language Processing Conference (AMLaP-02), Tenerife, September 2002.</p></li>
-<li><p>Sanford, A.J., Stewart, A.J., Sturt P., &amp; Archambault, A. (2002). Text change detection. Fifteenth CUNY Sentence Processing Conference, City University New York, New York, March 2002.</p></li>
-<li><p>Pothos, E.M., Chater, N., &amp; Stewart, A.J. (2001). Linguistic biases in categorisation. Presented to ESCOP, University of Edinburgh, Edinburgh, 2001.</p></li>
-<li><p>Rayner, K., Rotello, C., Stewart, A.J., Keir, S. &amp; Duffy, S.A. (2001). Integrating Text and Pictorial Information: Eye movements when looking at print advertisements. European Conference on Eye Movements (ECEM 11), University of Turku, Finland, August 2001.</p></li>
-<li><p>Rayner, K., Rotello, C., Stewart, A.J., &amp; Duffy, S.A. (2001). Integrating Text and Pictorial Information: Eye movements and memory for scenes. Third International Conference on Memory, Spain, July 2001.</p></li>
-<li><p>Stewart, A.J., Forman, F., Lamberts, K. &amp; Bruce, G. (2001). Categorisation, Communication and Extensions: Evidence from Artificial Stimuli and Real World Brands. CREF Exploratory Consumer Science Review, Colworth, January 2001.</p></li>
-<li><p>Rayner, K., Stewart, A.J., Rotello, C., Keir, S. &amp; Duffy, S.A. (2001). Eye movements and print advertising. CREF Exploratory Consumer Science Review, Colworth, January 2001.</p></li>
-<li><p>Stewart, A.J. &amp; Gosselin, F. (2000). A Simple Categorization Model of Anaphor Resolution. Proceedings of The 22nd Annual Conference of the Cognitive Science Society, 930-934.</p></li>
-<li><p>Stewart, A.J. &amp; Forman, F. (1999). Language and Communication: Brand Claims and Inferences. CREF Exploratory Consumer Science Review, Port Sunlight, December 1999.</p></li>
-<li><p>Pickering, M.J., Branigan, H.P., &amp; Stewart, A.J. (1999). The time-course of activation of syntactic information during language production. Experimental Psychology Society conference, University of Durham, Durham, July 1999.</p></li>
-<li><p>Pickering, M.J., Branigan, H.P., &amp; Stewart, A.J. (1999). Linear versus hierarchical models of syntactic activation during production: Evidence from syntactic priming in spoken production. Twelfth CUNY Sentence Processing Conference, City University New York, New York, March 1999.</p></li>
-<li><p>Stewart A.J., Pickering M.J. &amp; Sanford, A.J. (1999). The influence of knowledge about consequences in language production and language comprehension. Experimental Psychology Society, University College London, London, January 1999.</p></li>
-<li><p>Stewart, A.J., Pickering, M.J., &amp; Sanford, A.J. (1998). Implicit consequentiality. Proceedings of The 20th Annual Conference of the Cognitive Science Society, 1031-1036.</p></li>
-<li><p>Stewart, A.J., Pickering, M.J., &amp; Sanford, A.J. (1998). The relationship between implicit causality and implicit consequentiality. Proceedings of The 20th Annual Conference of the Cognitive Science Society, University of Wisconsin-Madison, Wisconsin, USA, 1998.</p></li>
-<li><p>Majid, A., Pickering, M.J., &amp; Stewart, A.J. (1998). The effect of covariational information on implicit causality. Proceedings of The 20th Annual Conference of the Cognitive Science Society, University of Wisconsin-Madison, Wisconsin, USA, 1998.</p></li>
-<li><p>Branigan, H.P., Stewart, A.J., Pickering, M.J. (1998). Is syntactic priming a two-way effect? Proceedings of The 20th Annual Conference of the Cognitive Science Society, University of Wisconsin-Madison, Wisconsin, USA, 1998.</p></li>
-<li><p>Stewart A.J., Pickering M.J. &amp; Sanford A.J. (1998). The influence of verb bias information on clausal integration: Implicit causality and Implicit consequentiality. Eighth Annual Meeting of the Society for Text and Discourse, University of Wisconsin-Madison, Wisconsin, August 1998.</p></li>
-<li><p>Stewart A.J., Pickering M.J. &amp; Sanford A.J. (1998). The Influence of Implicit Consequentiality on Interpreting Anaphors. 11th Annual CUNY Conference on Human Sentence Processing, Rutgers, New Jersey, March 1998.</p></li>
-<li><p>Branigan, H.P., Pickering, M.J., Cleland, A., Stewart, A.J. (1998). The time-course of syntactic priming. Experimental Psychology Society, University of York, York, July 1998.</p></li>
-<li><p>Stewart A.J., Pickering M.J. &amp; Sanford A.J. (1998). The influence of implicit causality information on anaphor resolution. Experimental Psychology Society, Birkbeck College, London, January 1998.</p></li>
-<li><p>Branigan, H.P., Stewart, A.J. &amp; Pickering, M.J. (1998). Syntactic priming of matrix and subordinate clauses in spoken production. Fourth Architectures and Mechanisms of Language Processing Conference (AMLaP-98), University of Freiburg, Germany, September 1998.</p></li>
-<li><p>Stewart A.J., Pickering M.J. &amp; Sanford A.J. (1997). The Influence of Implicit Causality Information on Anaphoric Resolution. 10th Annual CUNY Conference on Human Sentence Processing, Santa Monica, California, March 1997.</p></li>
-<li><p>Stewart, A.J., Pickering, M.J., &amp; Sanford, A.J. (1997). The influence of implicit causality information in the language comprehension system. Proceedings of The 19th Annual Conference of the Cognitive Science Society, Stanford University, California, USA, 1997.</p></li>
-<li><p>Stewart, A.J., Pickering, M.J., &amp; Sanford, A.J. (1997) The influence of implicit causality and gender information on reference resolution: A 2-stage account. Conference on the Architectures and Mechanisms of Language Processing (AMLaP-97), University of Edinburgh, Edinburgh, September 1997.</p></li>
-<li><p>Pickering, M.J., Branigan, H.P., Liversedge, S.P., Stewart, A.J., Urbach, T.P., &amp; Myler, A. (1995). Exploring syntactic priming. Eighth CUNY Sentence Processing Conference, University of Arizona, Arizona, March 1995.</p></li>
-<li><p>Branigan, H.P., Pickering, M.J., &amp; Stewart, A.J. (1994). Syntactic priming in language processing. 25th Anniversary Conference of the Centre for Cognitive Science, University of Edinburgh, Edinburgh, July 1994.</p></li>
-<li><p>Pickering, M.J., Branigan, H.P., &amp; Stewart, A.J. (1994). Syntactic priming in language comprehension. Third European Conference on Language Comprehension, Hyères, France, May 1994.</p></li>
+<li>Williams, E. A., Yüksel, E. M., Stewart, A. J., &amp; Jones, L. A. (2018). Testing the Pacemaker Explanation: A Multi-Pronged Behavioural Investigation of the Human Timing System. Presentation at the joint Experimental Psychology Society and Canadian Society for Brain, Behaviour and Cognitive Science. Newfoundland, Canada, July, 2018.</li>
+<li>Williams, E.A., Stewart, A.J., &amp; Jones, L.A. (2017). Modality differences in timing: Testing the pacemaker speed explanation. 1st Annual Conference of the Timing Research Forum. University of Strasbourg, France, October, 2017.<br />
+</li>
+<li>Le-luan, E., Wood, J., Haigh, M., Yao, B., &amp; Stewart, A.J. (2017). Would you like to come up and see my etchings? Sensitivity to contextual cues in the comprehension of indirect meaning. Architectures and Mechanisms of Language Processing, Lancaster, September 2017.</li>
+<li>Williams, E.A., Stewart, A.J., &amp; Jones, L.A. (2017). Modality differences in timing: Testing the pacemaker speed explanation. 39th Annual Conference of the Cognitive Science Society. London, England, UK, July 2017.</li>
+<li>Williams, E.A., Stewart, A.J., &amp; Jones, L.A. (2017). Modality differences in timing: A new take on an old issue. Modularity in Time Perception and Timed Behaviour EPS-funded workshop, Liverpool John Moores University, England, UK, January 2017.</li>
+<li>Williams, E., Stewart, A.J., &amp; Jones, L.A. (2016). Investigating the pacemaker of the internal clock in humans. Experimental Psychology Society, Oxford, England, July 2016</li>
+<li>Stewart, A.J., &amp; Haigh, M. (2016). Slippery Slope Arguments imply opposition to change. Experimental Psychology Society, London, England, January 2016.</li>
+<li>Stewart, A.J., &amp; Haigh, M. (2015). Reasoning as we read: A psycholinguistic perspective on the processing of conditionals. London Reasoning Workshop, August 2015.</li>
+<li>McGarrigle, R., Munro, K.J., Stewart, A.J., &amp; Dawes, P. (2015). Listening effort and fatigue: Insights from pupillometry. Experimental Psychology Society, London, England, January 2015.</li>
+<li>Vass, C., Rigby, D., Campbell, S., Tate, K., Stewart, A., &amp; Payne, K. (2014) Using eye-tracking to explore the framing of risk attributes in a discrete choice experiment. 1st Meeting of the International Academy of Health Preference Research, Amsterdam, 2014.</li>
+<li>Vass, C., Rigby, D., Campbell, S., Tate, K., Stewart, A., &amp; Payne, K. (2014) Investigating the framing of risk attributes in a discrete choice experiment: an application of eye-tracking and think aloud. Society for Medical Decision Making 36th Annual North American Meeting, Miami, 2014.</li>
+<li>Wood, J., Haigh, M., Kinsella, J., &amp; Stewart, A.J. (2014). The online comprehension of indirect replies: Evidence from eye-tracking. Architectures and Mechanisms of Language Processing, Edinburgh, September 2014.</li>
+<li>Wood, J., Stewart, A.J., &amp; Connell, L. (2013). Read this and I’ll pay you a fiver: Eye tracking implicit meaning in conditionals. Experimental Psychology Society, Bangor, England, July 2013.</li>
+<li>McGarrigle, R., Dawes, P., Stewart, A.J., &amp; Munro, K. (2013). What is this thing called ‘Listening Effort’? Second International Conference on Cognitive Hearing Science for Communication. Linköping, Sweden. 2013.</li>
+<li>Tate, K., Stewart, A.J., &amp; Daly, M. (2013). The effect of priming on attitudes: an experimental approach. Experimental Psychology Society, Lancaster, England, April 2013.</li>
+<li>McGarrigle, R., Stewart, A.J., &amp; Connell, L. (2012). Can language help to shape the way we think? A cross-linguistic investigation into the effect of noun-adjective order on conceptual representation. Embodied and Situated Language Processing, Newcastle, 2012.</li>
+<li>Adank, P., Stewart, A.J., &amp; Connell, L. (2012). Vocal Imitation Positively Affects Language Attitudes. International Symposium on Imitation and Convergence in Speech, Aix-en-Provence, France 2012.</li>
+<li>Tate, K., Stewart, A., &amp; Daley, M. (2012). The Predictive Role of Implicit and Explicit Attitudes in Consumers’ Packaging Choice. American Psychological Association Convention, Florida, 2012.</li>
+<li>Bonnefon, J.-F., Haigh, M. &amp; Stewart, A.J. (2012). Utility templates for consequential arguments. 7th International Conference on Thinking, Birkbeck, London 2012.</li>
+<li>Wood, J., Stewart, A.J., &amp; Connell, L. (2012). Read this and I’ll pay you a fiver: Implicit meaning is processed differently in conditionals and conjunctive paraphrases. Experimental Psychology Society, Hull, England, April 2012.</li>
+<li>Stewart, A.J., Haigh, M., &amp; Ferguson, H.J. (2012). Representing hypothetical situations: an eye-tracking investigation into readers’ sensitivity to utility and speaker control in the comprehension of conditionals. Experimental Psychology Society, Hull, England, April 2012.</li>
+<li>Haigh, M., Wood, J., Connell, L., &amp; Stewart, A.J., (2011). Comprehending advice and inducements: Evidence from conditionals and conjunctions. Proceedings of the European Conference on Cognitive Science.</li>
+<li>Haigh, M., &amp; Stewart, A.J. (2010). An investigation into readers’ sensitivity to conditional indirect meaning. 51st annual meeting of the Psychonomics Society, St. Louis, November 2010.</li>
+<li>Stewart, A.J., Haigh, M., &amp; Connell, L. (2010). Evaluating the probability of indicative conditionals as they are read. 51st annual meeting of the Psychonomics Society, St. Louis, November 2010.</li>
+<li>Stewart, A.J., Haigh, M., &amp; Connell, L. (2010). A psycholinguistic perspective on the processing of conditionals. Architectures and Mechanisms of Language Processing conference, York, September 2010.</li>
+<li>Haigh, M., &amp; Stewart, A.J. (2010). Promises and tips: Are readers sensitive to conditional indirect meaning? Experimental Psychology Society, Manchester, England, July 2010.</li>
+<li>Haigh, M., &amp; Stewart, A.J. (2010). Reasoning as we read: an investigation into the processing of non-basic conditionals. Experimental Psychology Society, London, January 2010.</li>
+<li>Haigh, M., &amp; Stewart, A.J. (2009). The online comprehension of non-basic indicative conditionals: an investigation into reasoning as we read. Society for Text and Discourse, Rotterdam, July 2009.</li>
+<li>Kirkham, J, A., Kidd, E, J., &amp; Stewart, A, J. (2009). The effect of Steiner, Montessori and Mainstream education upon children’s graphic, language and pretend play development. BPS Educational Psychology Conference, November 2009.</li>
+<li>Kirkham, J., Kidd, E., &amp; Stewart, A. (2009). Language and symbolic play development during the fourth year. Society for Research in Child Development Conference, Denver, Colorado, April 2009.</li>
+<li>Kirkham, J., Kidd, E., &amp; Stewart, A. (2008). The relationship between development in graphic, language and symbolic play domains during the fourth year. BPS Developmental Section Annual Conference, Oxford, September 2008.</li>
+<li>Haigh, M., Stewart, A.J. &amp; Kidd, E. (2008). Constraints on the construction of counterfactual situation representations during comprehension: an examination of on-line suppositional processing. Fourteenth Architectures and Mechanisms of Language Processing Conference, Cambridge, England, September 2008.</li>
+<li>Goodman, R. L., Webb, T. L &amp; Stewart, A. J. (2008). Communicating stereotypes: is non-fictional information communicated in the same way as fictional information? 15th European Association of Experimental Social Psychology General Meeting, Opatija, Croatia, June 2008.</li>
+<li>Stewart, A.J., &amp; Kidd, E. (2007). Immediate sensitivity to character-attribute and spatial anomalies during reading: evidence against initial underspecification. Thirteenth Architectures and Mechanisms of Language Processing Conference, Turku, Finland, August 2007.</li>
+<li>Stewart, A.J., &amp; Kidd, E. (2007). Processing globally ambiguous pronouns. Society for Text and Discourse, Glasgow, July 2007.</li>
+<li>Stewart, A.J., &amp; Kidd, E. (2007). Sensitivity to temporal, spatial, and character attribute information. Society for Text and Discourse, Glasgow, July 2007.</li>
+<li>Goodman, R., Stewart, A.J., &amp; Webb, T. (2007). The immediate influence of gender stereotypes on reading. Society for Text and Discourse, Glasgow, July 2007.</li>
+<li>Stewart, A.J., Holler, J., &amp; Kidd, E. (2007). Shallow processing of ambiguous pronouns: evidence for delay. Experimental Psychology Society, Edinburgh, July 2007.</li>
+<li>Poliakoff, E., Makin, A., Chen, J., &amp; Stewart, A. (2007). Faster and slower: The effect of previously viewed velocities on current velocity estimates. Experimental Psychology Society, London, January 2007.</li>
+<li>Kidd., E., Stewart, A.J., &amp; Serratrice, L. (2006). Overcoming lexical biases: the influence of the referential scene. Nineteenth CUNY Sentence Processing Conference: Workshop on Child Language, City University New York, March 2006.</li>
+<li>Galpin, A., Dixon, C., Stewart, A., &amp; Poliakoff, E. (2005). Action Observation in Expert and Non-Expert Cyclists. Seventeenth meeting of the British Ocular Motor Group, Birmingham, December 2005.</li>
+<li>Stewart, A.J., Holler, J., &amp; Kidd., E. (2005). Pronoun resolution varies as a function of depth of reading. Eighteenth CUNY Sentence Processing Conference, University of Arizona, Arizona, March 2005.</li>
+<li>Holler, J., Stewart, A.J., &amp; Kidd, E. (2005). Task demands influence how people process pronouns. British Psychological Society, University of Manchester, Manchester, March 2005.</li>
+<li>Stewart, A.J., &amp; Holler, J. (2005). Depth of Processing Influences Pronoun Resolution. Experimental Psychology Society, University College London, London, January 2005.</li>
+<li>Stewart, A.J., Pickering, M.J., &amp; Sturt, P. (2003). Using eye tracking to measure the acceptability of brand extensions. Society for Applied Research in Memory and Cognition, University of Aberdeen, Aberdeen, July 2003.</li>
+<li>Stewart, A.J., Sanford A.J., Sturt, P., Dawydiak, E. &amp; Niswander, E. (2003). Text change detection in reading: how people represent product related information. Society for Applied Research in Memory and Cognition, University of Aberdeen, Aberdeen, July 2003.</li>
+<li>Newby, B., Beesley, G., &amp; Stewart, A.J. (2003). Motion tracking as a non-verbal method for studying human behaviour. Society for Applied Research in Memory and Cognition, University of Aberdeen, Aberdeen, July 2003.</li>
+<li>Stewart, A.J., Newby, B., Shaw, K., Purdy, K., &amp; Gale, A. (2003). Measuring how consumers interact with an embodied agent. Society for Applied Research in Memory and Cognition, University of Aberdeen, Aberdeen, July 2003.</li>
+<li>Sanford, A.J., Sturt P., Dawydiak, E., &amp; Stewart, A.J. (2002). Depth of processing, underspecification, and text change-blindness. Eighth Architectures and Mechanisms of Language Processing Conference (AMLaP-02), Tenerife, September 2002.</li>
+<li>Sanford, A.J., Stewart, A.J., Sturt P., &amp; Archambault, A. (2002). Text change detection. Fifteenth CUNY Sentence Processing Conference, City University New York, New York, March 2002.</li>
+<li>Pothos, E.M., Chater, N., &amp; Stewart, A.J. (2001). Linguistic biases in categorisation. Presented to ESCOP, University of Edinburgh, Edinburgh, 2001.</li>
+<li>Rayner, K., Rotello, C., Stewart, A.J., Keir, S. &amp; Duffy, S.A. (2001). Integrating Text and Pictorial Information: Eye movements when looking at print advertisements. European Conference on Eye Movements (ECEM 11), University of Turku, Finland, August 2001.</li>
+<li>Rayner, K., Rotello, C., Stewart, A.J., &amp; Duffy, S.A. (2001). Integrating Text and Pictorial Information: Eye movements and memory for scenes. Third International Conference on Memory, Spain, July 2001.</li>
+<li>Stewart, A.J., Forman, F., Lamberts, K. &amp; Bruce, G. (2001). Categorisation, Communication and Extensions: Evidence from Artificial Stimuli and Real World Brands. CREF Exploratory Consumer Science Review, Colworth, January 2001.</li>
+<li>Rayner, K., Stewart, A.J., Rotello, C., Keir, S. &amp; Duffy, S.A. (2001). Eye movements and print advertising. CREF Exploratory Consumer Science Review, Colworth, January 2001.</li>
+<li>Stewart, A.J. &amp; Gosselin, F. (2000). A Simple Categorization Model of Anaphor Resolution. Proceedings of The 22nd Annual Conference of the Cognitive Science Society, 930-934.</li>
+<li>Stewart, A.J. &amp; Forman, F. (1999). Language and Communication: Brand Claims and Inferences. CREF Exploratory Consumer Science Review, Port Sunlight, December 1999.</li>
+<li>Pickering, M.J., Branigan, H.P., &amp; Stewart, A.J. (1999). The time-course of activation of syntactic information during language production. Experimental Psychology Society conference, University of Durham, Durham, July 1999.</li>
+<li>Pickering, M.J., Branigan, H.P., &amp; Stewart, A.J. (1999). Linear versus hierarchical models of syntactic activation during production: Evidence from syntactic priming in spoken production. Twelfth CUNY Sentence Processing Conference, City University New York, New York, March 1999.</li>
+<li>Stewart A.J., Pickering M.J. &amp; Sanford, A.J. (1999). The influence of knowledge about consequences in language production and language comprehension. Experimental Psychology Society, University College London, London, January 1999.</li>
+<li>Stewart, A.J., Pickering, M.J., &amp; Sanford, A.J. (1998). Implicit consequentiality. Proceedings of The 20th Annual Conference of the Cognitive Science Society, 1031-1036.</li>
+<li>Stewart, A.J., Pickering, M.J., &amp; Sanford, A.J. (1998). The relationship between implicit causality and implicit consequentiality. Proceedings of The 20th Annual Conference of the Cognitive Science Society, University of Wisconsin-Madison, Wisconsin, USA, 1998.</li>
+<li>Majid, A., Pickering, M.J., &amp; Stewart, A.J. (1998). The effect of covariational information on implicit causality. Proceedings of The 20th Annual Conference of the Cognitive Science Society, University of Wisconsin-Madison, Wisconsin, USA, 1998.</li>
+<li>Branigan, H.P., Stewart, A.J., Pickering, M.J. (1998). Is syntactic priming a two-way effect? Proceedings of The 20th Annual Conference of the Cognitive Science Society, University of Wisconsin-Madison, Wisconsin, USA, 1998.</li>
+<li>Stewart A.J., Pickering M.J. &amp; Sanford A.J. (1998). The influence of verb bias information on clausal integration: Implicit causality and Implicit consequentiality. Eighth Annual Meeting of the Society for Text and Discourse, University of Wisconsin-Madison, Wisconsin, August 1998.</li>
+<li>Stewart A.J., Pickering M.J. &amp; Sanford A.J. (1998). The Influence of Implicit Consequentiality on Interpreting Anaphors. 11th Annual CUNY Conference on Human Sentence Processing, Rutgers, New Jersey, March 1998.</li>
+<li>Branigan, H.P., Pickering, M.J., Cleland, A., Stewart, A.J. (1998). The time-course of syntactic priming. Experimental Psychology Society, University of York, York, July 1998.</li>
+<li>Stewart A.J., Pickering M.J. &amp; Sanford A.J. (1998). The influence of implicit causality information on anaphor resolution. Experimental Psychology Society, Birkbeck College, London, January 1998.</li>
+<li>Branigan, H.P., Stewart, A.J. &amp; Pickering, M.J. (1998). Syntactic priming of matrix and subordinate clauses in spoken production. Fourth Architectures and Mechanisms of Language Processing Conference (AMLaP-98), University of Freiburg, Germany, September 1998.</li>
+<li>Stewart A.J., Pickering M.J. &amp; Sanford A.J. (1997). The Influence of Implicit Causality Information on Anaphoric Resolution. 10th Annual CUNY Conference on Human Sentence Processing, Santa Monica, California, March 1997.</li>
+<li>Stewart, A.J., Pickering, M.J., &amp; Sanford, A.J. (1997). The influence of implicit causality information in the language comprehension system. Proceedings of The 19th Annual Conference of the Cognitive Science Society, Stanford University, California, USA, 1997.</li>
+<li>Stewart, A.J., Pickering, M.J., &amp; Sanford, A.J. (1997) The influence of implicit causality and gender information on reference resolution: A 2-stage account. Conference on the Architectures and Mechanisms of Language Processing (AMLaP-97), University of Edinburgh, Edinburgh, September 1997.</li>
+<li>Pickering, M.J., Branigan, H.P., Liversedge, S.P., Stewart, A.J., Urbach, T.P., &amp; Myler, A. (1995). Exploring syntactic priming. Eighth CUNY Sentence Processing Conference, University of Arizona, Arizona, March 1995.</li>
+<li>Branigan, H.P., Pickering, M.J., &amp; Stewart, A.J. (1994). Syntactic priming in language processing. 25th Anniversary Conference of the Centre for Cognitive Science, University of Edinburgh, Edinburgh, July 1994.</li>
+<li>Pickering, M.J., Branigan, H.P., &amp; Stewart, A.J. (1994). Syntactic priming in language comprehension. Third European Conference on Language Comprehension, Hyères, France, May 1994.</li>
 </ul>
 </div>
 </div>
@@ -1943,7 +2003,7 @@ Member, Experimental Psychology Society.</p>
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
