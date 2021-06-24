@@ -2,59 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Andrew Stewart</title>
-    <link>/authors/admin/</link>
-      <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ajstewartlang.netlify.com/authors/admin/</link>
+      <atom:link href="https://ajstewartlang.netlify.com/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Andrew Stewart</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://ajstewartlang.netlify.com/img/icon-192.png</url>
       <title>Andrew Stewart</title>
-      <link>/authors/admin/</link>
+      <link>https://ajstewartlang.netlify.com/authors/admin/</link>
     </image>
     
     <item>
       <title>Affective theory of mind inferences contextually influence the recognition of emotional facial expressions.</title>
-      <link>/publication/journal-article/paper1/</link>
+      <link>https://ajstewartlang.netlify.com/publication/journal-article/paper1/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/journal-article/paper1/</guid>
+      <guid>https://ajstewartlang.netlify.com/publication/journal-article/paper1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modality differences in timing and the filled-duration illusion. Testing the pacemaker rate explanation.</title>
-      <link>/publication/journal-article/paper2/</link>
+      <link>https://ajstewartlang.netlify.com/publication/journal-article/paper2/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/journal-article/paper2/</guid>
+      <guid>https://ajstewartlang.netlify.com/publication/journal-article/paper2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An eye-tracking examination of readers&#39; sensitivity to pragmatic scope information during the processing of conditional inducements.</title>
-      <link>/publication/journal-article/paper4/</link>
+      <link>https://ajstewartlang.netlify.com/publication/journal-article/paper4/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/journal-article/paper4/</guid>
+      <guid>https://ajstewartlang.netlify.com/publication/journal-article/paper4/</guid>
       <description></description>
     </item>
     
     <item>
       <title>“It’s hard to write a good article.” The online comprehension of excuses as indirect replies.</title>
-      <link>/publication/journal-article/paper3/</link>
+      <link>https://ajstewartlang.netlify.com/publication/journal-article/paper3/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/journal-article/paper3/</guid>
+      <guid>https://ajstewartlang.netlify.com/publication/journal-article/paper3/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/authors/admin/</link>
-      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;I am a cognitive psychologist and data scientist at the University of Manchester and Fellow of the Software Sustainability Institute interested in experimental pragmatics, open science, and reproducible research.&lt;/p&gt;
-
-&lt;p&gt;My current research projects include how people understand data visualisations, how readers understand meaning that is implied by a linguistic utterance (rather than that which is conveyed explicitly), the mechanisms by which conditional information is processed and mentally represented, and (more generally) how meaning is integrated across sentences. My research involves the use of eye-tracking to examine moment-by-moment processing.&lt;/p&gt;
-
-&lt;p&gt;I teach data science and statistical methods to students in Psychology and Biological Sciences with an emphasis on R and reproducibility.&lt;/p&gt;
-</description>
     </item>
     
   </channel>
