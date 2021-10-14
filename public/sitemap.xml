@@ -1,285 +1,260 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/courses/example/example1/</loc>
+    <loc>https://ajstewartlang.netlify.com/courses/example/example1/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/courses/example/</loc>
+    <loc>https://ajstewartlang.netlify.com/courses/example/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/courses/example/example2/</loc>
+    <loc>https://ajstewartlang.netlify.com/courses/example/example2/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-01-13T11:45:53+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://ajstewartlang.netlify.com/</loc>
+    <lastmod>2020-08-07T10:39:51+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/reasoning-as-we-read-h-w-do-readers-understand-conditional-statements-implied-meaning-and-indirect-meaning-during-comprehension/</loc>
+    <loc>https://ajstewartlang.netlify.com/post/learning-r-in-the-context-of-open-and-reproducible-research/</loc>
+    <lastmod>2020-08-07T10:11:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ajstewartlang.netlify.com/post/</loc>
+    <lastmod>2020-08-07T10:11:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ajstewartlang.netlify.com/talk/collaborations-workshop-cw20-keynote/</loc>
+    <lastmod>2020-08-07T10:39:51+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ajstewartlang.netlify.com/talk/</loc>
+    <lastmod>2020-08-07T10:39:51+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ajstewartlang.netlify.com/talk/reasoning-as-we-read-h-w-do-readers-understand-conditional-statements-implied-meaning-and-indirect-meaning-during-comprehension/</loc>
     <lastmod>2020-01-13T11:45:53+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/</loc>
-    <lastmod>2020-01-13T11:45:53+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
+    <loc>https://ajstewartlang.netlify.com/post/beware-results-may-vary-workshop-on-openness-as-a-means-of-enhancing-research-quality/</loc>
     <lastmod>2019-12-16T10:40:43+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/beware-results-may-vary-workshop-on-openness-as-a-means-of-enhancing-research-quality/</loc>
-    <lastmod>2019-12-16T10:40:43+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talk/msci-data-science/</loc>
+    <loc>https://ajstewartlang.netlify.com/talk/msci-data-science/</loc>
     <lastmod>2019-10-04T12:06:19+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/text-mining/</loc>
+    <loc>https://ajstewartlang.netlify.com/talk/text-mining/</loc>
     <lastmod>2019-09-19T11:30:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/keele_r/</loc>
+    <loc>https://ajstewartlang.netlify.com/talk/keele_r/</loc>
     <lastmod>2019-09-09T10:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/admin/</loc>
+    <loc>https://ajstewartlang.netlify.com/authors/admin/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/2/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/publication/journal-article/paper1/</loc>
+    <loc>https://ajstewartlang.netlify.com/publication_types/2/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/astrid-schepman/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/emily-williams/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/ezgi-m.-yuksel/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/luke-jones/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/matthew-haigh/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/publication/journal-article/paper2/</loc>
+    <loc>https://ajstewartlang.netlify.com/publication/journal-article/paper1/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
+    <loc>https://ajstewartlang.netlify.com/authors/astrid-schepman/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/rhian-mchugh/</loc>
+    <loc>https://ajstewartlang.netlify.com/authors/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/source-themes/</loc>
+    <loc>https://ajstewartlang.netlify.com/authors/emily-williams/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/suzanne-stewart/</loc>
+    <loc>https://ajstewartlang.netlify.com/authors/ezgi-m.-yuksel/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://ajstewartlang.netlify.com/authors/luke-jones/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/talk/sips/</loc>
+    <loc>https://ajstewartlang.netlify.com/authors/matthew-haigh/</loc>
+    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ajstewartlang.netlify.com/publication/journal-article/paper2/</loc>
+    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ajstewartlang.netlify.com/publication_types/</loc>
+    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ajstewartlang.netlify.com/publication/</loc>
+    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ajstewartlang.netlify.com/authors/rhian-mchugh/</loc>
+    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ajstewartlang.netlify.com/tags/source-themes/</loc>
+    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ajstewartlang.netlify.com/authors/suzanne-stewart/</loc>
+    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ajstewartlang.netlify.com/tags/</loc>
+    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ajstewartlang.netlify.com/talk/sips/</loc>
     <lastmod>2019-07-07T11:30:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/binder/</loc>
-    <lastmod>2019-07-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/post/post1/2015-07-23-r-rmarkdown/</loc>
+    <loc>https://ajstewartlang.netlify.com/tags/binder/</loc>
     <lastmod>2019-07-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2019-07-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/post/post1/</loc>
+    <loc>https://ajstewartlang.netlify.com/post/post1/2015-07-23-r-rmarkdown/</loc>
     <lastmod>2019-07-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/r/</loc>
+    <loc>https://ajstewartlang.netlify.com/categories/</loc>
     <lastmod>2019-07-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/r/</loc>
+    <loc>https://ajstewartlang.netlify.com/post/post1/</loc>
     <lastmod>2019-07-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/reproducibility/</loc>
+    <loc>https://ajstewartlang.netlify.com/tags/r/</loc>
     <lastmod>2019-07-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/lancaster-staffs-keele/</loc>
+    <loc>https://ajstewartlang.netlify.com/categories/r/</loc>
+    <lastmod>2019-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ajstewartlang.netlify.com/tags/reproducibility/</loc>
+    <lastmod>2019-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ajstewartlang.netlify.com/post/lancaster-staffs-keele/</loc>
     <lastmod>2019-08-07T16:12:46+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/slides/</loc>
+    <loc>https://ajstewartlang.netlify.com/courses/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ajstewartlang.netlify.com/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/slides/example/</loc>
+    <loc>https://ajstewartlang.netlify.com/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/journal-article/paper4/</loc>
+    <loc>https://ajstewartlang.netlify.com/publication/journal-article/paper4/</loc>
     <lastmod>2018-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/bo-yao/</loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/elizabeth-le-luan/</loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/jeffrey-wood/</loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/publication/journal-article/paper3/</loc>
+    <loc>https://ajstewartlang.netlify.com/authors/bo-yao/</loc>
     <lastmod>2018-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/privacy/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+    <loc>https://ajstewartlang.netlify.com/authors/elizabeth-le-luan/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/terms/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+    <loc>https://ajstewartlang.netlify.com/authors/jeffrey-wood/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://ajstewartlang.netlify.com/publication/journal-article/paper3/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/demo/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/project/external-project/</loc>
+    <loc>https://ajstewartlang.netlify.com/tags/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/internal-project/</loc>
+    <loc>https://ajstewartlang.netlify.com/tags/demo/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/</loc>
+    <loc>https://ajstewartlang.netlify.com/project/external-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/courses/</loc>
+    <loc>https://ajstewartlang.netlify.com/project/internal-project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ajstewartlang.netlify.com/project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>
