@@ -19,16 +19,26 @@
   
   <url>
     <loc>https://ajstewartlang.netlify.com/</loc>
-    <lastmod>2020-08-07T10:39:51+01:00</lastmod>
+    <lastmod>2022-06-30T09:27:19+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajstewartlang.netlify.com/post/learning-r-in-the-context-of-open-and-reproducible-research/</loc>
-    <lastmod>2020-08-07T10:11:45+01:00</lastmod>
+    <loc>https://ajstewartlang.netlify.com/post/2022-06-30-office-for-open-research/</loc>
+    <lastmod>2022-06-30T09:27:19+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://ajstewartlang.netlify.com/post/</loc>
+    <lastmod>2022-06-30T09:27:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ajstewartlang.netlify.com/post/2022-06-21-major-funding-boost-for-uk-s-open-research-agenda/</loc>
+    <lastmod>2021-09-22T15:55:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ajstewartlang.netlify.com/post/learning-r-in-the-context-of-open-and-reproducible-research/</loc>
     <lastmod>2020-08-07T10:11:45+01:00</lastmod>
   </url>
   
@@ -43,7 +53,7 @@
   </url>
   
   <url>
-    <loc>https://ajstewartlang.netlify.com/talk/reasoning-as-we-read-h-w-do-readers-understand-conditional-statements-implied-meaning-and-indirect-meaning-during-comprehension/</loc>
+    <loc>https://ajstewartlang.netlify.com/talk/reasoning-as-we-read-how-do-readers-understand-conditional-statements-implied-meaning-and-indirect-meaning-during-comprehension/</loc>
     <lastmod>2020-01-13T11:45:53+00:00</lastmod>
   </url>
   
@@ -153,41 +163,6 @@
   </url>
   
   <url>
-    <loc>https://ajstewartlang.netlify.com/tags/binder/</loc>
-    <lastmod>2019-07-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ajstewartlang.netlify.com/post/post1/2015-07-23-r-rmarkdown/</loc>
-    <lastmod>2019-07-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ajstewartlang.netlify.com/categories/</loc>
-    <lastmod>2019-07-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ajstewartlang.netlify.com/post/post1/</loc>
-    <lastmod>2019-07-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ajstewartlang.netlify.com/tags/r/</loc>
-    <lastmod>2019-07-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ajstewartlang.netlify.com/categories/r/</loc>
-    <lastmod>2019-07-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ajstewartlang.netlify.com/tags/reproducibility/</loc>
-    <lastmod>2019-07-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ajstewartlang.netlify.com/post/lancaster-staffs-keele/</loc>
     <lastmod>2019-08-07T16:12:46+01:00</lastmod>
   </url>
@@ -255,6 +230,10 @@
   <url>
     <loc>https://ajstewartlang.netlify.com/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ajstewartlang.netlify.com/categories/</loc>
   </url>
   
 </urlset>

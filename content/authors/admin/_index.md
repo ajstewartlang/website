@@ -9,7 +9,7 @@ name: Andrew Stewart
 organizations:
 - name: University of Manchester
   url: ""
-role: Fellow of the Software Sustainability Institute and Senior Lecturer
+role: Professor of Psychology
 social:
 - icon: envelope
   icon_pack: fas
@@ -29,7 +29,7 @@ user_groups:
 - Visitors
 ---
 
-I am an Experimental Psychologist at the University of Manchester interested in experimental pragmatics, open science, and reproducible research. I am the University of Manchester Open and Reproducible Research Lead. 
+I am Professor in Experimental Psychology at the University of Manchester with research interests in experimental psychology, open science, and reproducible research. I am the Institutional Lead for Open and Reproducible Research and have a joint appointment in Psychology and Computer Science. 
 
 My current research projects examine how people understand data visualisations, how readers understand meaning that is implied by a linguistic utterance (rather than that which is conveyed explicitly), the mechanisms by which conditional information is processed and mentally represented, and (more generally) how meaning is integrated across sentences.  
 

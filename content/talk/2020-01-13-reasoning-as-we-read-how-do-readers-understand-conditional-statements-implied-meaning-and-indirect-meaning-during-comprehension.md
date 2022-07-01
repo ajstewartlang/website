@@ -3,7 +3,7 @@ title: 'Reasoning As We Read'
 author: ''
 date: '2020-01-28T16:15:53Z'
 event: UoM Linguistics Seminar
-slug: reasoning-as-we-read-h w-do-readers-understand-conditional-statements-implied-meaning-and-indirect-meaning-during-comprehension
+slug: reasoning-as-we-read-how-do-readers-understand-conditional-statements-implied-meaning-and-indirect-meaning-during-comprehension
 categories: []
 tags: []
 subtitle: ''
