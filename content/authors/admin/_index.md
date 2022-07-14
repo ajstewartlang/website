@@ -33,4 +33,4 @@ I am a Professor at the University of Manchester with research interests in cogn
 
 My current research projects examine how people understand data visualisations, how readers understand meaning that is implied by a linguistic utterance (rather than that which is conveyed explicitly), the mechanisms by which conditional information is processed and represented, and (more generally) how meaning is integrated across sentences.  
 
-I teach data science and statistical methods to students in Psychology and Biological Sciences with an emphasis on R, Python, open source tools, open research, and reproducibility.  
+I teach data science and statistical methods to students in Psychology and Biological Sciences with an emphasis on R, Python, open source tools, open research, and reproducibility. I am a big fan of open source software in general, and use [Ubuntu](https://ubuntu.com/) and [Fedora](https://getfedora.org/) on my main work machines.
