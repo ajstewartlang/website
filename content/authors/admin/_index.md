@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: My interests include open research and reproducibility, data science, experimental psychology, and psycholinguistics. I am a fellow of the Software Sustainability Institute.
+bio: My interests include cognitive science, data visualisation, open science, and reproducible research. I am a fellow of the Software Sustainability Institute.
 
 email: "andrew.stewart@manchester.ac.uk"
 
@@ -9,7 +9,7 @@ name: Andrew Stewart
 organizations:
 - name: University of Manchester
   url: ""
-role: Professor
+role: Professor of Cognitive Science
 social:
 - icon: envelope
   icon_pack: fas
@@ -29,7 +29,7 @@ user_groups:
 - Visitors
 ---
 
-I am a Professor at the University of Manchester with research interests in experimental psychology, data visualisaion, open science, and reproducible research. I am the Institutional Lead for Open and Reproducible Research and have a joint appointment in Psychology and Computer Science - where I am a member of the [eScience Lab](https://esciencelab.org.uk/). 
+I am a Professor at the University of Manchester with research interests in cognitive science, data visualisation, open science, and reproducible research. I am the Institutional Lead for Open and Reproducible Research and have a joint appointment in Psychology and Computer Science - where I am a member of the [eScience Lab](https://esciencelab.org.uk/). 
 
 My current research projects examine how people understand data visualisations, how readers understand meaning that is implied by a linguistic utterance (rather than that which is conveyed explicitly), the mechanisms by which conditional information is processed and represented, and (more generally) how meaning is integrated across sentences.  
 
