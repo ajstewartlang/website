@@ -59,7 +59,7 @@ time_format = "3:04 PM"
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "andrew.stewart@manchester.ac.uk"
-address = "Division of Neuroscience and Experimental Psychology,<br> Zochonis Building,<br> University of Manchester,<br> Oxford Road,<br> Manchester M13 9PL,<br> United Kingdom."
+address = "Department of Computer Science,<br> Kilburn Building,<br> University of Manchester,<br> Oxford Road,<br> Manchester M13 9PL,<br> United Kingdom."
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = ""
@@ -94,8 +94,8 @@ contact_links = [
 #   3: OpenStreetMap (Mapbox)
 map = 2
 map_api_key = ""
-latitude = "53.4660"
-longitude = "-2.2306"
+latitude = "53.4671"
+longitude = "-2.2342"
 zoom = 15
 
 ############################
