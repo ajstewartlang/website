@@ -29,8 +29,8 @@ user_groups:
 - Visitors
 ---
 
-I am a Professor at the University of Manchester with research interests in cognitive science, data visualisation, open science, and reproducible research. I am the Institutional Lead for Open and Reproducible Research and have a joint appointment in Psychology and Computer Science - where I am a member of the [eScience Lab](https://esciencelab.org.uk/) and the [Human Computer Systems Group](https://www.cs.manchester.ac.uk/research/expertise/human-computer-systems/). 
+I am a Professor of Cognitive Science and Head of the Department of Computer Science at the University of Manchester. I have research interests in cognitive science, data visualisation, open science, and reproducible research. I am the Institutional Lead for Open and Reproducible Research and am a member of the [eScience Lab](https://esciencelab.org.uk/) and the [Human Computer Systems Group](https://www.cs.manchester.ac.uk/research/expertise/human-computer-systems/). 
 
 I am particularly interested in how we can use computational perspectives to understand human cognition. My current research projects examine how people understand data visualisations, how people process meaning that is implied by an utterance (rather than that which is conveyed explicitly), the mechanisms by which conditional information is processed and represented, and (more generally) how meaning is integrated across sentences.  
 
-I teach data science and statistical methods to students in Psychology and Biological Sciences with an emphasis on R, Python, open source tools, open research, and reproducibility. I am a big fan of open source software in general, and use [Ubuntu](https://ubuntu.com/) and [Fedora](https://getfedora.org/) on my main work machines.
+I have taught data science and statistical methods to students in Psychology and Biological Sciences with an emphasis on R, Python, open source tools, open research, and reproducibility. I am a big fan of open source software in general, and use [Ubuntu](https://ubuntu.com/) and [Fedora](https://getfedora.org/) on my main work machines.
