@@ -34,3 +34,5 @@ I am Professor of Cognitive Science and Head of the Department of Computer Scien
 I am particularly interested in how we can use computational perspectives to understand human cognition. My current research projects examine how people understand data visualisations, how people process meaning that is implied by an utterance (rather than that which is conveyed explicitly), the mechanisms by which conditional information is processed and represented, and (more generally) how meaning is integrated across sentences.  
 
 I have taught data science and statistical methods to students in Psychology and Biological Sciences with an emphasis on R, Python, open source tools, open research, and reproducibility. I am a big fan of open source software in general, and use [Ubuntu](https://ubuntu.com/) and [Fedora](https://getfedora.org/) on my main work machines.
+
+<a rel="me" href="https://fediscience.org/@ajstewart_cs"></a>
