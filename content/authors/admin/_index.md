@@ -35,4 +35,4 @@ I am particularly interested in how we can use computational perspectives to und
 
 I have taught data science and statistical methods to students in Psychology and Biological Sciences with an emphasis on R, Python, open source tools, open research, and reproducibility. I am a big fan of open source software in general, and use [Ubuntu](https://ubuntu.com/) and [Fedora](https://getfedora.org/) on my main work machines.
 
-<a rel="me" href="https://fediscience.org/@ajstewart_cs"></a>
+<a rel="me" href="https://fosstodon.org/@ajstewart_cs"></a>
